@@ -1,10 +1,9 @@
 name: 02 - Workflow-events.yaml
 
 on: 
-    push:
     pull_request:
     schedule:
-        - cron: '*/5 * * * *'
+        - cron: "* * * * *"
     workflow_dispatch:
 
 jobs:
